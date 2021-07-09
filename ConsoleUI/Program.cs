@@ -3,6 +3,7 @@ using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using System;
+using System.Linq;
 
 namespace ConsoleUI
 {
@@ -20,7 +21,8 @@ namespace ConsoleUI
                 }
             }
             Console.WriteLine(result.Message);
-
         }
+
     }
 }
+
